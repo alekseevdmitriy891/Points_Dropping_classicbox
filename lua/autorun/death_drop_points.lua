@@ -1,4 +1,4 @@
-local amount = 20
+local amount = 10
 
 hook.Add("DoPlayerDeath", "death_drop_points", function( ply, attacker, dmg )
     if amount >= amount and true and --[[IsValid(attacker)]] then -- сюда вместо первого аргумента вставляеш переменую игрока поинты, вместо третьего оргумента "true" проверку на пвп мод игрока
@@ -13,4 +13,5 @@ hook.Add("DoPlayerDeath", "death_drop_points", function( ply, attacker, dmg )
     end
 
 end)
+
 
